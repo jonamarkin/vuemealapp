@@ -1,13 +1,21 @@
 <template>
-  <HomeHero/>
+  <span>
+    <HomeHero />
+    <HomeDetails />
+    <HomePlans />
+  </span>
 </template>
 
 <script>
-import HomeHero from '../components/HomeHero';
+import HomeHero from "../components/HomeHero";
+import HomeDetails from "../components/HomeDetails";
+import HomePlans from "../components/HomePlans";
 
 export default {
   components: {
-    HomeHero
-  },
+    HomeHero,
+    HomeDetails,
+    HomePlans
+  }
 };
 </script>
